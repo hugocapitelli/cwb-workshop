@@ -12,26 +12,26 @@ html {
 
 body {
   min-height: 100dvh;
-  background-color: #0A0A0A;
-  color: #E8E0D5;
+  background-color: #0A120E;
+  color: #E8F0EC;
 }
 
 @layer utilities {
   .glass-panel {
-    background: rgba(17, 17, 17, 0.6);
+    background: rgba(22, 43, 31, 0.6);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(232, 224, 213, 0.05);
+    border: 1px solid rgba(232, 240, 236, 0.05);
   }
 
   .text-gradient {
-    background: linear-gradient(to right, #E8E0D5, #C4A882);
+    background: linear-gradient(to right, #E8F0EC, #5B8A6F);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .glow-accent {
-    box-shadow: 0 0 20px rgba(196, 168, 130, 0.15);
+    box-shadow: 0 0 20px rgba(91, 138, 111, 0.15);
   }
 }
