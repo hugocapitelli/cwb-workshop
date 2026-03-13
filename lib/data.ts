@@ -169,11 +169,11 @@ export const groups: Group[] = [
     theme: 'Rotatividade',
     questionIds: [2, 4, 6, 8, 10],
     members: [
-      normal('Júlia Grando', 'rotatividade', 'Líder de Projeto'),
+      imp('Júlia Grando', 'rotatividade', 'dominador'),
       normal('Sara Senna', 'rotatividade', 'Analista'),
       normal('Ana Luiza Filgueira', 'rotatividade', 'Relator'),
-      imp('Geraldo Capanema', 'rotatividade', 'dominador'),
-      normal('Guilherme Morais', 'rotatividade', 'Revisor'),
+      normal('Geraldo Capanema', 'rotatividade', 'Revisor'),
+      normal('Guilherme Morais', 'rotatividade', 'Líder de Projeto'),
     ],
   },
   {
